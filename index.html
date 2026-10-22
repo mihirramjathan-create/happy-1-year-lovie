@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--
+    MI & CHERVEL — ONE YEAR ANNIVERSARY WEBSITE
+    QUICK EDITING GUIDE:
+    1. Replace any image placeholder by changing its src="images/placeholder-....svg"
+       to your own image path, for example src="images/our-first-date.jpg".
+    2. Put your photos inside the images folder.
+    3. Put your video inside the videos folder, then update the video source near the bottom.
+    4. Edit the words directly inside the HTML.
+    Keep index.html, style.css, script.js, images/, and videos/ together.
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff5f6">
+  <meta name="description" content="A little love story for Chervel, made by Mi, for their first anniversary.">
+  <title>My Love, Our First Year ♡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="hearts-layer" aria-hidden="true"></div>
+
+<!-- Sticky navigation: change the labels or section links here if you rename sections. -->
+<header class="site-header">
+  <a class="logo" href="#home">M <span>♡</span> C</a>
+  <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+  <nav id="nav">
+    <a href="#story">Our story</a><a href="#chapters">The memories</a><a href="#truth">The real us</a><a href="#letter">My letter</a>
+  </nav>
+</header>
+
+<main>
+  <!-- HERO SECTION: main title and first photo. Replace the placeholder SVG with your favourite photo. -->
+  <section class="hero" id="home">
+    <div class="hero-copy">
+      <p class="eyebrow">22 OCTOBER 2025 · OUR BEGINNING</p>
+      <h1>My love,<br><em>it's always been you.</em></h1>
+      <p class="intro-copy">To my love, my lovie, my teacup — one year of us. Not a perfect story, but our story. And I wouldn't trade the good, the silly, or the growing for anything.</p>
+      <a class="pill-button" href="#story">Start our little story <span>♡</span></a>
+      <!-- The countdown date is set in script.js. -->
+      <p class="countdown" id="countdown">Counting down to our anniversary…</p>
+    </div>
+    <div class="hero-visual">
+      <div class="polaroid">
+        <!-- IMAGE PLACEHOLDER: replace the src with your own photo file path. -->
+        <img class="hero-photo" src="images/fav.jpg" alt="Placeholder for a favourite photo of Mihir and Chervel">
+        <p>my favourite person</p>
+      </div>
+      <span class="sticker sticker-love">my lovie ♡</span><span class="sticker sticker-tea">teacup<br>energy ☕</span>
+      <span class="sparkle s1">✦</span><span class="sparkle s2">✧</span>
+    </div>
+  </section>
+
+  <!-- STORY SECTION: edit these paragraphs to add more details about how you met. -->
+  <section class="section opening" id="story">
+    <p class="eyebrow">CHAPTER ONE</p><h2>It started with a <em>message.</em></h2>
+    <p class="lead">Before the dates, the kisses, the little arguments, the big laughs, and all the memories we keep collecting… there was just us, online.</p>
+    <div class="timeline">
+      <article class="timeline-item"><div class="timeline-number">01</div><div><h3>The online plot twist 😭</h3><p>We met online, and somehow you thought I already had a girlfriend and was cheating on her. Imagine accusing me of cheating before we were even together. 😂❤️ Then you realised I was actually single…</p></div></article>
+      <article class="timeline-item"><div class="timeline-number">02</div><div><h3>And I got your number 👀</h3><p>Me being me, I was forward about it. I got your number, we carried on talking, and little by little a random online conversation became something neither of us could just brush off.</p></div></article>
+      <article class="timeline-item"><div class="timeline-number">03</div><div><h3>From talking to us</h3><p>Eventually, we started dating. The girl who once thought I was taken became my girlfriend—and one of the most important people in my life. Funny how one conversation can change so much.</p></div></article>
+    </div>
+  </section>
+
+  <!-- MEMORIES: each card has a real replaceable image placeholder. Change src to your photo path. -->
+  <section class="section memories" id="chapters">
+    <p class="eyebrow">OUR FIRSTS & FAVOURITE THINGS</p><h2>A year of <em>little forever moments.</em></h2>
+    <p class="lead">These are the memories you've told me about. Add your real photos to make this part even more yours.</p>
+    <div class="memory-grid">
+      <article class="memory">
+        <img class="memory-photo" src="images/first.jpg" alt="Placeholder for a photo from Kim's party">
+        <div class="memory-text"><small>THE FIRST KISS</small><h3>Kim's party</h3><p>Our first time see each other , the head bump, and the random Bluetooth moment.</p></div>
+      </article>
+      <article class="memory">
+        <img class="memory-photo" src="images/date.jpg" alt="Placeholder for a photo from Chervel's birthday date">
+        <div class="memory-text"><small>THE FIRST PROPER DATE</small><h3>Your birthday</h3><p>Celebrating you became one of our first proper date memories. Getting to make you feel special was the best part.</p></div>
+      </article>
+      <article class="memory">
+        <img class="memory-photo" src="images/c.jpg" alt="Placeholder for a Christmas memory">
+        <div class="memory-text"><small>OUR FIRST CHRISTMAS</small><h3>A little more like family</h3><p>Family dinner, meeting more of your people, matching outfits, and decorating the Christmas tree together.</p></div>
+      </article>
+      <article class="memory">
+        <img class="memory-photo" src="images/val.jpg" alt="Placeholder for Valentine's Day">
+        <div class="memory-text"><small>OUR FIRST VALENTINE'S</small><h3>Handprints & presents</h3><p>Matching handprint shirts, a teddy bunny, wrapped gifts, and a day full of little things that meant a lot.</p></div>
+      </article>
+      <article class="memory">
+        <img class="memory-photo" src="images/campus.jpg" alt="Placeholder for a campus photo together">
+        <div class="memory-text"><small>EVERYDAY US</small><h3>Campus days</h3><p>Getting to see you on campus and turning ordinary days into moments I get to keep.</p></div>
+      </article>
+      <article class="memory">
+        <img class="memory-photo" src="images/always.webp" alt="Placeholder for love notes or flowers">
+        <div class="memory-text"><small>THE LITTLE THINGS</small><h3>Your notes & your heart</h3><p>Your love notes, your teasing, your hugs, and the way you check on me. The small things are never small to me.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- HONEST SECTION: keeps the real relationship story — hard days, but more good days than bad. -->
+  <section class="section truth" id="truth">
+    <div class="truth-copy"><p class="eyebrow">THE REAL US</p><h2>Not perfect.<br><em>Still precious.</em></h2>
+    <p>Let's be honest, my love: we had a lot of fights and some really bad days. There were moments when things felt hard, when we misunderstood each other, and when loving each other took work.</p>
+    <p>But there were <strong>more good days than bad.</strong> More laughs, sweet moments, memories, silly teasing, and reasons to be grateful for us. I don't want to pretend every day was perfect. I want to remember that even through the messy parts, we had something worth learning for and growing with.</p>
+    <p>One year isn't proof that we'll never struggle. It's a reminder of how much we've shared—and how much more we can learn about loving each other well.</p>
+    <button class="pill-button dark" id="reasonButton">One more reason I love you <span>♡</span></button>
+    <p id="reasonText" class="reason-text" aria-live="polite">Tap it, lovie. I've got plenty. ❤️</p></div>
+    <div class="truth-art">
+      <!-- Decorative heart illustration is CSS, not a photo. Edit its labels in HTML if you like. -->
+      <div class="big-heart">♥</div><span class="bubble bubble1">my love</span><span class="bubble bubble2">lovie</span><span class="bubble bubble3">teacup</span><span class="tiny-star">✦</span>
+    </div>
+  </section>
+
+  <!-- HER FAVOURITES: emoji are decorative icons, so no photo replacement is needed here. -->
+  <section class="section her-section">
+    <p class="eyebrow">THE GIRL I LOVE</p><h2>Things that make you <em>you.</em></h2>
+    <p class="lead">My feisty, brilliant, caring, romantic, my pretty girl. ❤️</p>
+    <div class="favourites">
+      <div><span>🌹</span><strong>Roses</strong><small>because you're a romantic</small></div>
+      <div><span>🍫</span><strong>Chocolate</strong><small>chocolate over anything</small></div>
+      <div><span>🍛</span><strong>Butter chicken</strong><small>top-tier choice, just like you</small></div>
+      <div><span>🍰</span><strong>Brownies</strong><small>save me one, please</small></div>
+      <div><span>🏎️</span><strong>F1</strong><small>race-day love</small></div>
+      <div><span>🎨</span><strong>Baking & drawing</strong><small>your creative side</small></div>
+    </div>
+    <div class="trait-tags"><span>brilliant</span><span>feisty</span><span>thoughtful</span><span>hardworking</span><span>romantic</span><span>my teacup</span></div>
+    <p class="dream-note">And to the girl working toward her dreams: I hope you remember how capable you are, especially on the days you doubt yourself. I believe in you, my love.</p>
+  </section>
+
+  <!-- LETTER: personalise any sentence here. -->
+  <section class="section letter-section" id="letter">
+    <article class="letter">
+      <p class="eyebrow">A LETTER FOR MY LOVE</p><h2>To my <em>lovie.</em></h2>
+      <p>Happy one year, my love. ❤️ It's kind of mad to think that our story started with us talking online, you thinking I had a girlfriend, and me being bold enough to get your number once you realised I was single. And now look at us.</p>
+      <p>We've had beautiful days and we've had some really hard ones. We've fought, misunderstood each other, laughed until things felt silly, made memories, and learned things about ourselves and each other. I won't act like it was all sunshine, because that's not our story. But the good has outweighed the bad, and the moments with you mean so much to me.</p>
+      <p>I love your feisty little self, your brain, your love notes, your teasing, and the way you can be both my favourite person and my biggest menace. I love the memories we've made, from our first kiss and our first proper date to Christmas, Valentine's Day, and all the ordinary days in between.</p>
+      <p>I can't promise we'll never have another difficult day. I can promise that I want to keep learning, listening, growing, and loving you better. I want more laughs, more photos, more dates, more silly stories, and more chapters with you in them.</p>
+      <p>Thank you for this first year, my love. Thank you for being my lovie, my teacup, and my person. This website is only a tiny piece of how much you mean to me.</p>
+      <p class="signoff">Always yours,<br><strong>Mihir ♡</strong></p>
+    </article>
+  </section>
+
+  <!-- VIDEO PLACEHOLDER: put your video in videos/ and update the source below.
+       Example: <source src="videos/future-kids-message.mp4" type="video/mp4">
+       You can also change the poster image to your own thumbnail. -->
+  <section class="section future">
+    <div class="video-icon">📼</div><p class="eyebrow">A LITTLE MESSAGE FOR THE FUTURE</p><h2>For our future kids.</h2>
+    <p>Right now, we're making this anniversary box and saving pieces of our first year. If you're watching this one day, this is where our story was at the beginning: two young people learning to love, laughing at silly things, getting things wrong sometimes, and making memories that mattered.</p>
+    <p class="muted">Future-kids video.</p>
+    <div class="video-frame">
+      <video id="futureVideo" controls playsinline preload="metadata" poster="images/placeholder-video-poster.svg">
+        <!-- VIDEO SOURCE PLACEHOLDER: replace this path with your actual video file. -->
+        <source src="images/20261015_015941.mp4" type="video/mp4">
+        Sorry, your browser does not support embedded videos.
+      </video>
+    </div>
+  </section>
+</main>
+
+<footer><div class="footer-heart">♥</div><p>Made with love, for Chervel.</p><small>22 · 10 · 2026 — our first year, not our last chapter.</small><a href="#home">Back to the top ↑</a></footer>
+<script src="script.js"></script>
+</body>
+</html>
